@@ -1,1 +1,127 @@
-#Bienvenidos a mi pagina web operacionesmasivasTest02
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Panel de control en QA</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+      color: #1e293b;
+      background: #f8fafc;
+    }
+    header {
+      background: linear-gradient(135deg, #16a34a, #2563eb, #9333ea);
+      color: white;
+      padding: 70px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      color: #2563eb;
+    }
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 14px;
+      padding: 22px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #9333ea;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    footer {
+      background: #0f172a;
+      color: #cbd5e1;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<script defer src="https://qa-livechat.hibot.us/hibot-chat.min.js" data-channel="77647c3ef09c4f6980b993966b99effe" id="livechat"></script>
+
+<body>
+
+<header>
+  <h1>Panel de control 2</h1>
+  <p>Monitoreo, métricas y automatización para garantizar la calidad del software</p>
+</header>
+
+<section>
+  <h2>¿Qué es un Panel de Control 2?</h2>
+  <p>
+    Un <strong>Panel de Control</strong> centraliza la información clave de las pruebas automatizadas 
+    y manuales, permitiendo a los equipos visualizar métricas en tiempo real, identificar riesgos y 
+    asegurar la calidad del software antes de su liberación.
+  </p>
+</section>
+
+<section>
+  <h2>Funciones principales</h2>
+  <div class="card-grid">
+    <div class="card">
+      <h3>📊 Métricas en tiempo real</h3>
+      <p>Visualización de resultados de pruebas y tendencias para la toma de decisiones.</p>
+    </div>
+    <div class="card">
+      <h3>✅ Estado de ejecuciones</h3>
+      <p>Monitorea qué pruebas pasaron, fallaron o están en ejecución.</p>
+    </div>
+    <div class="card">
+      <h3>🚀 Automatización</h3>
+      <p>Integración con pipelines CI/CD para pruebas continuas y despliegues confiables.</p>
+    </div>
+    <div class="card">
+      <h3>🔔 Alertas</h3>
+      <p>Notificaciones sobre fallos críticos y métricas fuera de rango.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Beneficios en QA</h2>
+  <ul>
+    <li><strong>Visibilidad total:</strong> control completo sobre el estado de la calidad.</li>
+    <li><strong>Prevención temprana:</strong> identifica problemas antes de llegar a producción.</li>
+    <li><strong>Optimización de recursos:</strong> prioriza esfuerzos en áreas críticas.</li>
+    <li><strong>Trazabilidad:</strong> seguimiento desde los requisitos hasta las pruebas ejecutadas.</li>
+    <li><strong>Colaboración:</strong> alinea al equipo QA, desarrollo y negocio.</li>
+  </ul>
+</section>
+
+<footer>
+  © 2025 · Página demo sobre Paneles de Control QA · Creada con fines educativos
+</footer>
+
+</body>
+</html>
